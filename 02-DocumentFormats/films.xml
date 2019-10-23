@@ -1,0 +1,126 @@
+<films>
+    <film>
+        <name>
+        "Piraci z karaibów"
+        </name>
+        <genre>
+        "Film akcji"
+        </genre>
+        <year>
+        "2006"
+        </year>
+        <personal_rating>
+        "9/10"
+        </personal_rating>
+        <director>
+        "John Kowalski"
+        </director>
+        <actors>
+        "Johny Depp"
+        </actors>
+         <actors>
+        "Jan Nowak"
+        </actors>
+    </film>
+    <film>
+         <name>
+        "It"
+        </name>
+        <genre>
+        "Horror"
+        </genre>
+        <year>
+        "2018"
+        </year>
+        <personal_rating>
+        "10/10"
+        </personal_rating>
+        <director>
+        "Anna Nowak"
+        </director>
+        <actors>
+        "Brat Pitt"
+        </actors>
+         <actors>
+        "Janusz Tracz"
+        </actors>
+        <actors>
+         "Billy the Clown"
+        </actors>
+    </film>
+     <film>
+         <name>
+        "Ciche miejsce"
+        </name>
+        <genre>
+        "Horror"
+        </genre>
+        <year>
+        "2018"
+        </year>
+        <personal_rating>
+        "8/10"
+        </personal_rating>
+        <director>
+        "Woddy Allen"
+        </director>
+        <actors>
+        "Johny Depp"
+        </actors>
+         <actors>
+        "Leonardo di Caprio"
+        </actors>
+    </film>
+    <film>
+         <name>
+        "Teletubisie"
+        </name>
+        <genre>
+        "Film akcji"
+        </genre>
+        <year>
+        "2019"
+        </year>
+        <personal_rating>
+        "10/10"
+        </personal_rating>
+        <director>
+        "Jadwiga Chymiel"
+        </director>
+        <actors>
+        "Dipsy"
+        </actors>
+         <actors>
+        "Pinky Winky"
+        </actors>
+    </film>
+     <film>
+         <name>
+        "Piraci z karaibów 2"
+        </name>
+        <genre>
+        "Film akcji"
+        </genre>
+        <year>
+        "2010"
+        </year>
+        <personal_rating>
+        "7/10"
+        </personal_rating>
+        <director>
+        "Johny Kowalski"
+        </director>
+        <actors>
+        "Angelina Jolie"
+        </actors>
+         <actors>
+        "Hannah Montana"
+        </actors>
+    </film>
+
+
+
+
+
+
+</films>

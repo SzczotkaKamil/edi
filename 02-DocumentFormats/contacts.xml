@@ -13,6 +13,16 @@
 		<address>ul.Dębowa 5, Łódź></address>
 	</contact>
 	<contact>
+		<name>Kamil</name>
+		<name>Krzysztof</name>
+		<surname>Szczotka</surname>
+		<email type="personal">szkamil@gmail.com</email>
+		<email type="business">szkamil@CompLand.pl</email>
+		<phone type="home">8530010</phone>
+		<phone type="work">555555333</phone>
+		<notes>my personal data</notes>
+	</contact>
+	<contact>
 		<name>Anna</name>
 		<name>Maria</name>
 		<surname>Kowalska</surname>
