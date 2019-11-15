@@ -5,8 +5,24 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
+		
 		<h1>Create mobile phone</h1>
+		<button onClick="buttonClick()">Button</button>
 		<script>
+			function buttonClick() {
+			var myMobilePhone = {
+					productName:"Xiaomi Redmi Note",
+					productNumber:7,
+					isBlack:true,
+					specifications:["4GB of RAM","48Mpix"],
+					avaliableColorsOnMarket:
+						{Poland:["black"],
+						Germany:["black","white"]}
+					}
+				alert("Product Name: "+myMobilePhone.productName+", Product Number: "+myMobilePhone.productNumber+", Is my phone black: "+myMobilePhone.isBlack+", Phone Specifications: "+myMobilePhone.specifications+", Avaliable Colors On Market in Germany: "+myMobilePhone.avaliableColorsOnMarket.Germany+", Avaliable Colors On Market in Poland: "+myMobilePhone.avaliableColorsOnMarket.Poland);
+			
+			}
+
 		</script>
 	</body>
 </html>
