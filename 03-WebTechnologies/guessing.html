@@ -7,15 +7,14 @@
 	<body>
 		<h1>Try to guess</h1>
 
-		<script>
-			// read user's number (popup window)
+		<script> {}
+			var maximum = 5;
+			var minimum = 1;
+			var randomnumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 			
-			// create a random number
-			
-			// compare the numbers
-			
-			// show results (popup window)
-			
+			var guessed = prompt("Wprowadź liczbę od 1 do 5.");
+			if (guessed==randomnumber){document.write("Good Work");}
+			else{document.write("Sorry. Correct answer is: "+randomnumber)}
 		</script>
 	</body>
 </html>
