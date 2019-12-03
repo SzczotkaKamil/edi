@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create methods</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Create methods</h1>
+		<script>
+			var myArray = {
+					arr: [3,4,76,1,5,787,33,76,1,99,45,235,53,23],
+					max: function(){
+						tmp = this.arr.length-1;
+						this.arr=this.arr.sort(function (a, b) {  return a - b;  });
+						console.log(this.arr[tmp]);
+						
+					},		
+					min: function(){
+						
+						console.log(this.arr[0]);
+					},		
+					avg: function(){
+						var i =0;var suma=0;
+						while(i<this.arr.length){
+							suma+=this.arr[i];
+							i++;
+						}
+						console.log(suma/this.arr.length);
+					},		
+					lth: function(val){
+						i=0;var licznik=0;
+						while(i<this.arr.length){
+							if(this.arr[i]<val){
+								licznik+=1;
+							}
+						i++;
+
+
+						}
+						console.log(licznik);
+					}	
+			};
+			
+			myArray.max();myArray.min();myArray.avg();myArray.lth(20);
+		</script>
+	</body>
+</html>

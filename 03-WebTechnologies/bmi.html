@@ -13,21 +13,25 @@
 				var BMI = {
 						weight: null,
 						height: null,
+						wynik: null,
 						enterData: function(){
-							this.weight=70;
+							// enter weight and height, and assign them to the object properties
 							this.height=1.75;
+							this.weight=70;
 							
 						},
 						calculate: function(){
-							var wynik = this.weight*(this.height*this.height);
-							return wynik;
+							this.wynik= this.weight/(this.height*this.height);
 						},
 						display: function(){
-							console.log(calculate.wynik);
-							
+							console.log("BMI wynosi: "+this.wynik);
 						}
 				}
 			
+				// call BMI methods
+				// ...
+				BMI.enterData();BMI.calculate();BMI.display();
+				
 				
 			
 			}
